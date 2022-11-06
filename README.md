@@ -10,11 +10,28 @@
 
 【永続化させたいデータを、誰かに「人質」に取られることなく秘匿化し、選択的開示や分散配置を行える仕組み】をみんなで継続して考え、実現していく最初の第一歩が『EOA Crypt』です。
 
+## テスト方法・手順
+1. プロダクトデモページにアクセスし「Launch Dapps」ボタンを押してDappsのページに進んでください。  
+[EOA Crypt デモページ](https://bafybeiasreuxb26b7aquirmqkp5tdlh54nbs3wb4ijskob4nhxaacwzfqi.ipfs.w3s.link/)
+
+1. 画面右上の「Connect wallet」を押してWeb3ウォレット(Metamask)を接続してください。  
+利用にはガス代(0.05GoerliETH程度)が必要となります。 (Ethereumのテストネットにつき無料)  
+[GoerliETH Faucetページ](https://goerlifaucet.com/)　,  [GoerliETH マイニングページ](https://goerli-faucet.pk910.de/)  
+
+1. 送信先を選択し、メッセージを入力して「送信」ボタンでメッセージの送信（共有）が可能です。  
+(自分自身宛てに送れば秘匿化した情報の保存としてのユースケースが考えられます)  
+
+1. 詳しくは、ヘルプページをご覧ください。  
+[EOA Crypt ヘルプページ](https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/docs/)
+
 ## Tech Stacks
-Protocol: Ethereum Goerli Testnet Network  
-Infrastructure: IPFS  
-Language: Html、CSS、Javascript、wasm（C＋＋）、Webpack、Solidity  
-Web2-Web3 Bridge: Ethers.js  
+
+| Category | Name |
+| ---- | ---- |
+| Protocol | Ethereum Goerli Testnet Network |
+| Infrastructure | IPFS |
+| Language | Html、CSS、Javascript、wasm（C＋＋）、Webpack、Solidity |
+| Web2-Web3 Bridge | Ethers.js |
 
 ## Block Chain
 Ethereum Goerli Testnet Network
@@ -25,7 +42,7 @@ https://github.com/ukishima/EOA-Crypt-For-Tokyo-Web3-Hackathon
 ## contract
 https://goerli.etherscan.io/address/0x362bca0228740b2420d9df54b7f5bb53f266afd1
 
-## Product Page（demo）
+## Product Page（demo） * Hosted on IPFS
 https://bafybeiasreuxb26b7aquirmqkp5tdlh54nbs3wb4ijskob4nhxaacwzfqi.ipfs.w3s.link/
 
 ## Help Page
