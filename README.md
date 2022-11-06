@@ -65,3 +65,6 @@ https://bafybeibdiek2zabncp7wxe6wyh5torur6db2qb45zwuv5x474fldx5xc2y.ipfs.w3s.lin
 
 ## Help Page
 https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/docs/
+
+## Pitch Slide Page
+https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/docs/pitch/pitch.md
