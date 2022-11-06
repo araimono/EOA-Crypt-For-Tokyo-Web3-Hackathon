@@ -24,6 +24,18 @@
 1. 詳しくは、ヘルプページをご覧ください。  
 [EOA Crypt ヘルプページ](https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/docs/)
 
+## ローカル環境での検証手順と技術概要
+
+1. 当リポジトリをクローンする。
+1. LiveServerなどローカルサーバ環境で実行する。
+
+EOA Cryptは、暗号化・復号のコア処理部においてJavaScript,WASM(C++)によって構成されており、
+フロントエンド部は単なるHTML1ファイルで構成されているので、
+リポジトリをクローンして「LiveServer」などで実行するだけで環境の構築が可能です。
+
+また、EOA Cryptは(今回のデモ版においても)フロントエンドのロジックはIPFSへ配置、データはブロックチェーンおよびIPFSに保存されています。
+よって特別にサーバを用意する必要はありません。  
+
 ## Tech Stacks
 
 | Category | Name |
