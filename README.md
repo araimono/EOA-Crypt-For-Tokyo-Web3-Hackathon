@@ -7,7 +7,7 @@
 【永続化させたいデータを、誰かに「人質」に取られることなく秘匿化し、選択的開示や分散配置を行える仕組み】をみんなで継続して考え、実現していく最初の第一歩が『EOA Crypt』です。
 
 ## Tech Stacks
-Html、CSS、Javascript、wasm（C＋＋）、Solidity、IPFS
+Html、CSS、Javascript、wasm（C＋＋）、Webpack、Solidity、IPFS
 
 ## Block Chain
 Ethereum Goerli Testnet Network
