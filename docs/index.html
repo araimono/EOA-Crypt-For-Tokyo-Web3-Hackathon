@@ -198,7 +198,7 @@
         height: 48px;
         line-height: 48px;
         font-size: 2.8rem;
-        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA0OCI+PHBhdGggZD0iTTAgNS43ODMxM0MwIDIuNTg5MiAyLjU4OTIgMCA1Ljc4MzEzIDBIMjRDMzcuMjU0OCAwIDQ4IDEwLjc0NTIgNDggMjRDNDggMzcuMjU0OCAzNy4yNTQ4IDQ4IDI0IDQ4QzEwLjc0NTIgNDggMCAzNy4yNTQ4IDAgMjRWNS43ODMxM1oiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMjQuMzEzMyIgY3k9IjI0LjQzODYiIHI9IjE1LjY2NTgiIGZpbGw9IiMyMDIyMjUiLz48cGF0aCBkPSJNMTEuODg1NyAyMS4yNTcxQzExLjg4NTcgMjAuMTIxIDEyLjgwNjggMTkuMiAxMy45NDI5IDE5LjJINDYuMTcxNVYzMS41NDI5SDIyLjE3MTVDMTYuNDkwOCAzMS41NDI5IDExLjg4NTcgMjYuOTM3OCAxMS44ODU3IDIxLjI1NzFaIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjMjAyMjI1IiBzdHJva2Utd2lkdGg9IjYiLz48L3N2Zz4=");
+        background-image: url("data:image/svg+xml;base64,PHN2ZyAgdmlld0JveD0iMCAwIDc1IDc2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNDU2MjIgMEMxLjU0NzQgMCAwIDEuNTM5NjUgMCAzLjQzODkxVjM3LjgzMzlDMCA1OC45MTI0IDE3LjE3MzUgNzYgMzguMzU4MiA3NkM1My45MjIyIDc2IDY3LjMwMjMgNjYuNjUwMyA3My4xODY1IDUzLjMwMzJINTguODM4N0M1NC4zMDQ4IDU5LjQ4MzIgNDYuOTY4NyA2My40OTg1IDM4LjY4OTYgNjMuNDk4NUMyNC45MjE4IDYzLjQ5ODUgMTMuNzYwOCA1Mi4zOTM2IDEzLjc2MDggMzguNjk0N0MxMy43NjA4IDI0Ljk5NTUgMjQuOTIxOCAxMy44OTAzIDM4LjY4OTYgMTMuODkwM0M0OC4xMzU4IDEzLjg5MDMgNTYuMzU0NCAxOS4xMTc2IDYwLjU4MzggMjYuODIzNUg3NC42ODAzQzY5Ljg1OTkgMTEuMzA5NiA1NS4zNDY1IDAgMzguMTkxMiAwSDMuNDU2MjJaTTc0LjY1NDQgMzQuMDQ1MkgyMS4wODI5QzIxLjA4MjkgNDAuODgyNSAyNi42NTM2IDQ2LjQyNTMgMzMuNTI1MyA0Ni40MjUzSDc0LjY1NDRWMzQuMDQ1MlpNMTguNjYzNiAxMi41NTIxQzE4LjY2MzYgMTYuMDY1NyAxNS44MDA5IDE4LjkxNCAxMi4yNjk2IDE4LjkxNEM4LjczODI4IDE4LjkxNCA1Ljg3NTU4IDE2LjA2NTcgNS44NzU1OCAxMi41NTIxQzUuODc1NTggOS4wMzg0MiA4LjczODI4IDYuMTkwMDYgMTIuMjY5NiA2LjE5MDA2QzE1LjgwMDkgNi4xOTAwNiAxOC42NjM2IDkuMDM4NDIgMTguNjYzNiAxMi41NTIxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
         background-repeat: no-repeat;
       }
       footer .help {
@@ -242,11 +242,12 @@
         right: 1.8rem;
       }
       #connectButton {
-        width: 189px;
-        height: 48px;
+        width: 100px;
+        height: 60px;
         padding-bottom: 4px;
         font-family: 'Alata', sans-serif;
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
         font-weight: 400;
         color: #ffffff;
         background: linear-gradient(266.08deg, #ED23A8 4.27%, #1400F4 100%);
@@ -321,13 +322,10 @@
         line-height: 2.4rem;
       }
 
-
       dl dd > ol {
         margin: 2rem 0 0 0;
         padding: 0 0 0 2.6rem;
         line-height: 1.5rem;
-        /*        margin: 0;
-        padding: 0;*/
       }
 
       dl dd ol li {
@@ -382,6 +380,16 @@
           padding: 6px 10px;
           line-height: 2.4rem;
           font-size: 1.4rem;
+        }
+      }
+      @media (min-width: 468px) {
+        #connectButton {
+          width: 189px;
+          height: 48px;
+          padding-bottom: 4px;
+          font-size: 1.9rem;
+          font-weight: 400;
+          border-radius: 17px;
         }
       }
       @media (min-width: 768px) {
@@ -799,7 +807,7 @@
             <h3 class="logo">EOA Crypt</h3>
           </div>
           <div style="position: absolute; right: 2rem">
-            <div class="help"><a href="https://bafybeiasreuxb26b7aquirmqkp5tdlh54nbs3wb4ijskob4nhxaacwzfqi.ipfs.w3s.link/" target="_blank">Go to the Dapp</a></div>
+            <div class="help"><a href="https://bafybeibdiek2zabncp7wxe6wyh5torur6db2qb45zwuv5x474fldx5xc2y.ipfs.w3s.link/" target="_blank">to the Dapp</a></div>
           </div>
         </div>
       </footer>
@@ -810,8 +818,8 @@
 const connectButton = document.getElementById("connectButton");
 connectButton.onclick = function () {
   window.open(
-        "https://bafybeiasreuxb26b7aquirmqkp5tdlh54nbs3wb4ijskob4nhxaacwzfqi.ipfs.w3s.link/",
-        "_blank"
+      "https://bafybeibdiek2zabncp7wxe6wyh5torur6db2qb45zwuv5x474fldx5xc2y.ipfs.w3s.link/",
+      "_blank"
     );
 }
 
