@@ -281,20 +281,21 @@
         font-weight: 400;
         font-size: 1.4rem;
         line-height: 2.8rem;
+        padding-left: 1.8rem;
       }
       
       dl {
 
       }
       dt {
-        margin: 3rem 0 2.8rem 2rem;
+        margin: 3rem 0 2.8rem 0;
         padding: 0 0 1.1rem 0.2rem;
         line-height: 2.8rem;
         font-size: 1.9rem;
         border-bottom: 1px solid #666;
       }
       dd {
-        margin: 2rem 0 5rem 2rem;
+        margin: 2rem 0 5rem 0;
       }
       dd img {
         width: 100%;
@@ -310,7 +311,9 @@
         font-weight: 400;
         line-height: 2.4rem;
       }
-
+      ol {
+        padding-left: 2rem;
+      }
       dl dd ul li ol {
         padding: 0 0 0 2.2rem;
       }
@@ -324,7 +327,7 @@
 
       dl dd > ol {
         margin: 2rem 0 0 0;
-        padding: 0 0 0 2.6rem;
+        padding: 0 0 0 2.23rem;
         line-height: 1.5rem;
       }
 
@@ -343,6 +346,7 @@
       }
       .callout ul {
         margin: 0 0 0 2rem;
+        padding-left: 0;
       }
       .callout ul li {
         list-style: circle; 
@@ -393,6 +397,27 @@
         }
       }
       @media (min-width: 768px) {
+        dt {
+          margin: 3rem 0 2.8rem 2rem;
+          padding: 0 0 1.1rem 0.2rem;
+        }
+        dd {
+          margin: 2rem 0 5rem 2rem;
+        }
+        ol {
+          padding-left: 4rem;
+        }
+        dl dd > ol {
+          padding: 0 0 0 2.6rem;
+        }
+        .callout ul {
+          margin: 0 0 0 2rem;
+          padding-left: 2rem;
+        }
+        .disclaimer ul {
+          padding-left: 2.4rem;
+        }
+
         header .logo_wrapper .logo {
           padding: 0 0 0 7.6rem;
         }
