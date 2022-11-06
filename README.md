@@ -15,7 +15,7 @@
 [EOA Crypt デモページ](https://bafybeiasreuxb26b7aquirmqkp5tdlh54nbs3wb4ijskob4nhxaacwzfqi.ipfs.w3s.link/)
 
 1. 画面右上の「Connect wallet」を押してWeb3ウォレット(Metamask)を接続してください。  
-利用にはガス代(0.05GoerliETH程度)が必要となります。 (Ethereumのテストネットにつき無料)  
+利用にはガス代(0.0001GoerliETH程度)が必要となります。 (Ethereumのテストネットにつき無料)  
 [GoerliETH Faucetページ](https://goerlifaucet.com/)　,  [GoerliETH マイニングページ](https://goerli-faucet.pk910.de/)  
 
 1. 送信先を選択し、メッセージを入力して「送信」ボタンでメッセージの送信（共有）が可能です。  
@@ -24,10 +24,16 @@
 1. 詳しくは、ヘルプページをご覧ください。  
 [EOA Crypt ヘルプページ](https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/docs/)
 
+> 参考ガス量：
+    - 登録時 45,471GAS
+    - メッセージ送信時 基本GAS量 21,000GAS + 1宛先毎 3,000GAS 程度
+
 ## ローカル環境での検証手順と技術概要
 
 1. 当リポジトリをクローンする。
 1. LiveServerなどローカルサーバ環境で実行する。
+
+※ コアモジュールであるmain.jsなどはIPFSでホストされているものを参照していますので、上記をそのまま実行した場合はローカルのjs等は呼ばれません。
 
 EOA Cryptは、暗号化・復号のコア処理部においてJavaScript,WASM(C++)によって構成されており、
 フロントエンド部は単なるHTML1ファイルで構成されているので、
