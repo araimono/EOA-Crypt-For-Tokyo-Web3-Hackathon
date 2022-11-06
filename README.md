@@ -10,6 +10,8 @@
 
 【永続化させたいデータを、誰かに「人質」に取られることなく秘匿化し、選択的開示や分散配置を行える仕組み】をみんなで継続して考え、実現していく最初の第一歩が『EOA Crypt』です。
 
+[!['概要動画'](https://i.ytimg.com/vi/FSYfN88Abqg/maxresdefault.jpg)](https://youtu.be/FSYfN88Abqg)
+
 ## テスト方法・手順
 1. プロダクトデモページにアクセスし「Launch Dapps」ボタンを押してDappsのページに進んでください。  
 [EOA Crypt デモページ](https://bafybeiasreuxb26b7aquirmqkp5tdlh54nbs3wb4ijskob4nhxaacwzfqi.ipfs.w3s.link/)
